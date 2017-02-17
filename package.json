@@ -2,6 +2,9 @@
   "name": "my-hubot",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "start": "bin/hubot --adapter slack"
+  },
   "author": "togana <o.togana@gmail.com>",
   "description": "A simple helpful robot for your Company",
   "dependencies": {

@@ -3,4 +3,4 @@ WORKDIR /hubot
 COPY package.json /hubot
 RUN npm install
 COPY . /hubot
-CMD ["bin/hubot", "--adapter", "slack"]
+CMD ["npm", "start"]
